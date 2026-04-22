@@ -1,0 +1,61 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navigasi {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+}
+
+.navigasi a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+ 
+header img {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 900px;
+  padding: 10px;
+}
+
+section {
+  background: rgb(255, 255, 255);
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  text-align: center; 
+}
+
+footer {
+  background: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  text-align: first; 
+}
